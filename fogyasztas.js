@@ -35,4 +35,5 @@ else{
 autok.garazs = function(utca){
     console.log(this.automarka + " garazsa " + utca + " utcaban talalhato");
 }
-autok.garazs("Nyar")
+
+autok.garazs("Tavasz")
