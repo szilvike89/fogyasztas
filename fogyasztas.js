@@ -11,3 +11,7 @@ do{
     tankolas = prompt("Hány litert tankoltál?")
 }while (tankolas > 1 || tankolas < 50);
 
+let autok = {
+    evjarat: 2020,
+    automarka: "JEEP WRANGLER"
+}
