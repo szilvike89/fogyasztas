@@ -1,15 +1,16 @@
 let km
+let szam = Number()
 
 do
 {
-    km = prompt("Hány kilométert mentél?")
-}while ((km > 1000) && (km = NaN));
+    km = parseInt(prompt("Hány kilométert mentél?"))
+}while ((km > 1000) || (km != Number(km)) || (km == ''));
 
 let tankolas
 
 do{
     tankolas = prompt("Hány litert tankoltál?")
-}while (tankolas < 1 || tankolas > 50);
+}while (tankolas < 1 || tankolas > 50 || tankolas == '');
 
 let autok = {
     evjarat: 2020,
