@@ -21,3 +21,6 @@ let autok = {
 }
  autok.fogyaszt()
 
+if (tankolas > 20){
+    console.log("Nem sajnálod az üzemanyagot!")
+}
