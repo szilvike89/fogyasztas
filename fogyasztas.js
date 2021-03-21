@@ -18,5 +18,5 @@ let autok = {
         console.log(this.evjarat, " evjaratu ", this.automarka, " fogyasztasa: " + (tankolas / km) + "liter/km")
     }
 }
-
+ autok.fogyaszt()
 
