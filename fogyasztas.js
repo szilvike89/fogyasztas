@@ -13,5 +13,10 @@ do{
 
 let autok = {
     evjarat: 2020,
-    automarka: "JEEP WRANGLER"
+    automarka: "JEEP WRANGLER",
+    fogyaszt: function(){
+        console.log(this.evjarat, " evjaratu ", this.automarka, " fogyasztasa: " + (tankolas / km) + "liter/km")
+    }
 }
+
+
