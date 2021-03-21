@@ -24,3 +24,10 @@ let autok = {
 if (tankolas > 20){
     console.log("Nem sajnálod az üzemanyagot!")
 }
+
+if (km > 700){
+    console.log("Nem kellene ennyit utaznod!")
+}
+else{
+    console.log("Csak így tovább!")
+}
