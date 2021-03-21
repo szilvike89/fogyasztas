@@ -37,3 +37,7 @@ autok.garazs = function(utca){
 }
 
 autok.garazs("Tavasz")
+
+for (kulcsok in autok){
+    console.log(kulcsok)
+}
