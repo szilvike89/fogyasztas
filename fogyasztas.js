@@ -31,3 +31,8 @@ if (km > 700){
 else{
     console.log("Csak így tovább!")
 }
+
+autok.garazs = function(utca){
+    console.log(this.automarka + " garazsa " + utca + " utcaban talalhato");
+}
+autok.garazs("Nyar")
